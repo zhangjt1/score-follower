@@ -40,3 +40,51 @@
 .read-the-docs {
   color: #888;
 }
+
+.input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  background: #374967;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  max-width: 900px;
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.input h2 {
+  margin-bottom: 16px;
+  font-weight: 600;
+  color: #333;
+}
+
+.input input[type="file"] {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.custom-file-label {
+  display: inline-block;
+  padding: 10px 24px;
+  background: #4f8cff;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin: 0 auto;
+  text-align: center;
+  transition: background 0.2s;
+}
+
+.custom-file-label:hover {
+  background: #357ae8;
+}
+
